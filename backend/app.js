@@ -40,9 +40,6 @@ app.use((req, res) => {
     throw new Error(`404 not found`);
 })
 
-
-
-
 // Error Handler
 app.use(errorHandler);
 
@@ -52,7 +49,7 @@ reminder();
 
 
 db.sequelize.sync().then(() => {
-  app.listen(PORT, () => {
-    console.log(`Server running on PORT ${PORT}`);
-  });
+    app.listen(PORT, () => {
+        console.log(`Server running on PORT ${PORT}`);
+    });
 });

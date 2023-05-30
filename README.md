@@ -1,5 +1,5 @@
-# CRED-T8
-Team ID: CRED-T8 | Team Members: Narendra Manglani &amp; Abhishek Ranjan
+# CardPe
+Team Members: Shashank Jain @shashankjain430@gmail.com
 
 ---
 
